@@ -1,0 +1,995 @@
+{
+  "nodes": [
+    {
+      "id": "aspirin",
+      "name": "aspirin",
+      "local_name": "Aspirin",
+      "generic_name": "acetylsalicylic acid",
+      "drug_class": "NSAID/antiplatelet",
+      "cyp_pathway": [],
+      "half_life_hours": 0.25,
+      "node_type": "drug"
+    },
+    {
+      "id": "warfarin",
+      "name": "warfarin",
+      "local_name": "Warfarin",
+      "generic_name": "warfarin sodium",
+      "drug_class": "anticoagulant",
+      "cyp_pathway": [
+        "CYP2C9",
+        "CYP3A4"
+      ],
+      "half_life_hours": 40.0,
+      "node_type": "drug"
+    },
+    {
+      "id": "metformin",
+      "name": "metformin",
+      "local_name": "Glucophage",
+      "generic_name": "metformin hydrochloride",
+      "drug_class": "antidiabetic",
+      "cyp_pathway": [],
+      "half_life_hours": 6.0,
+      "node_type": "drug"
+    },
+    {
+      "id": "paracetamol",
+      "name": "paracetamol",
+      "local_name": "Panadol",
+      "generic_name": "Paracetamol",
+      "drug_class": null,
+      "cyp_pathway": [],
+      "half_life_hours": null,
+      "node_type": "drug"
+    },
+    {
+      "id": "ibuprofen",
+      "name": "ibuprofen",
+      "local_name": "Ibucap",
+      "generic_name": "ibuprofen",
+      "drug_class": "NSAID",
+      "cyp_pathway": [
+        "CYP2C9"
+      ],
+      "half_life_hours": 2.0,
+      "node_type": "drug"
+    },
+    {
+      "id": "amlodipine",
+      "name": "amlodipine",
+      "local_name": "Norvasc",
+      "generic_name": "amlodipine besylate",
+      "drug_class": "calcium channel blocker",
+      "cyp_pathway": [
+        "CYP3A4"
+      ],
+      "half_life_hours": 40.0,
+      "node_type": "drug"
+    },
+    {
+      "id": "simvastatin",
+      "name": "simvastatin",
+      "local_name": "Simvastatin",
+      "generic_name": "simvastatin",
+      "drug_class": "statin",
+      "cyp_pathway": [
+        "CYP3A4"
+      ],
+      "half_life_hours": 3.0,
+      "node_type": "drug"
+    },
+    {
+      "id": "digoxin",
+      "name": "digoxin",
+      "local_name": "Lanoxin",
+      "generic_name": "digoxin",
+      "drug_class": "cardiac glycoside",
+      "cyp_pathway": [],
+      "half_life_hours": 36.0,
+      "node_type": "drug"
+    },
+    {
+      "id": "furosemide",
+      "name": "furosemide",
+      "local_name": "Lasix",
+      "generic_name": "furosemide",
+      "drug_class": "loop diuretic",
+      "cyp_pathway": [],
+      "half_life_hours": 1.5,
+      "node_type": "drug"
+    },
+    {
+      "id": "sildenafil",
+      "name": "sildenafil",
+      "local_name": "Sildenafil",
+      "generic_name": "Sildenafil",
+      "drug_class": null,
+      "cyp_pathway": [],
+      "half_life_hours": null,
+      "node_type": "drug"
+    },
+    {
+      "id": "nitroglycerin",
+      "name": "nitroglycerin",
+      "local_name": "Nitroglycerin",
+      "generic_name": "Nitroglycerin",
+      "drug_class": null,
+      "cyp_pathway": [],
+      "half_life_hours": null,
+      "node_type": "drug"
+    },
+    {
+      "id": "atorvastatin",
+      "name": "atorvastatin",
+      "local_name": "Lipitor",
+      "generic_name": "atorvastatin calcium",
+      "drug_class": "statin",
+      "cyp_pathway": [
+        "CYP3A4"
+      ],
+      "half_life_hours": 14.0,
+      "node_type": "drug"
+    },
+    {
+      "id": "alcohol",
+      "name": "alcohol",
+      "local_name": "Alcohol",
+      "generic_name": "ethanol",
+      "drug_class": "CNS depressant",
+      "cyp_pathway": [
+        "CYP2E1"
+      ],
+      "half_life_hours": 1.0,
+      "node_type": "drug"
+    },
+    {
+      "id": "amiodarone",
+      "name": "amiodarone",
+      "local_name": "Cordarone",
+      "generic_name": "amiodarone",
+      "drug_class": "antiarrhythmic",
+      "cyp_pathway": [
+        "CYP2C9",
+        "CYP3A4"
+      ],
+      "half_life_hours": 1200.0,
+      "node_type": "drug"
+    },
+    {
+      "id": "lisinopril",
+      "name": "lisinopril",
+      "local_name": "Zestril",
+      "generic_name": "lisinopril",
+      "drug_class": "ACE inhibitor",
+      "cyp_pathway": [],
+      "half_life_hours": 12.0,
+      "node_type": "drug"
+    },
+    {
+      "id": "potassium",
+      "name": "potassium",
+      "local_name": "Potassium Supplement",
+      "generic_name": "Potassium",
+      "drug_class": null,
+      "cyp_pathway": [],
+      "half_life_hours": null,
+      "node_type": "drug"
+    },
+    {
+      "id": "lithium",
+      "name": "lithium",
+      "local_name": "Lithium",
+      "generic_name": "lithium carbonate",
+      "drug_class": "mood stabiliser",
+      "cyp_pathway": [],
+      "half_life_hours": 24.0,
+      "node_type": "drug"
+    },
+    {
+      "id": "grapefruit",
+      "name": "grapefruit",
+      "local_name": "Grapefruit",
+      "generic_name": "Grapefruit",
+      "drug_class": null,
+      "cyp_pathway": [],
+      "half_life_hours": null,
+      "node_type": "drug"
+    },
+    {
+      "id": "clopidogrel",
+      "name": "clopidogrel",
+      "local_name": "Plavix",
+      "generic_name": "clopidogrel",
+      "drug_class": "antiplatelet",
+      "cyp_pathway": [
+        "CYP2C19"
+      ],
+      "half_life_hours": 6.0,
+      "node_type": "drug"
+    },
+    {
+      "id": "doxazosin",
+      "name": "doxazosin",
+      "local_name": "Doxazosin",
+      "generic_name": "Doxazosin",
+      "drug_class": null,
+      "cyp_pathway": [],
+      "half_life_hours": null,
+      "node_type": "drug"
+    },
+    {
+      "id": "tadalafil",
+      "name": "tadalafil",
+      "local_name": "Tadalafil",
+      "generic_name": "Tadalafil",
+      "drug_class": null,
+      "cyp_pathway": [],
+      "half_life_hours": null,
+      "node_type": "drug"
+    },
+    {
+      "id": "ciprofloxacin",
+      "name": "ciprofloxacin",
+      "local_name": "Ciprotab",
+      "generic_name": "ciprofloxacin",
+      "drug_class": "fluoroquinolone antibiotic",
+      "cyp_pathway": [
+        "CYP1A2"
+      ],
+      "half_life_hours": 4.0,
+      "node_type": "drug"
+    },
+    {
+      "id": "theophylline",
+      "name": "theophylline",
+      "local_name": "Theophylline",
+      "generic_name": "theophylline",
+      "drug_class": "bronchodilator",
+      "cyp_pathway": [
+        "CYP1A2"
+      ],
+      "half_life_hours": 8.0,
+      "node_type": "drug"
+    },
+    {
+      "id": "fluoxetine",
+      "name": "fluoxetine",
+      "local_name": "Prozac",
+      "generic_name": "fluoxetine hydrochloride",
+      "drug_class": "SSRI",
+      "cyp_pathway": [
+        "CYP2D6",
+        "CYP2C9"
+      ],
+      "half_life_hours": 72.0,
+      "node_type": "drug"
+    },
+    {
+      "id": "tramadol",
+      "name": "tramadol",
+      "local_name": "Tramal",
+      "generic_name": "tramadol hydrochloride",
+      "drug_class": "opioid analgesic",
+      "cyp_pathway": [
+        "CYP2D6",
+        "CYP3A4"
+      ],
+      "half_life_hours": 6.0,
+      "node_type": "drug"
+    },
+    {
+      "id": "sertraline",
+      "name": "sertraline",
+      "local_name": "Zoloft",
+      "generic_name": "sertraline hydrochloride",
+      "drug_class": "SSRI",
+      "cyp_pathway": [
+        "CYP2D6"
+      ],
+      "half_life_hours": 26.0,
+      "node_type": "drug"
+    },
+    {
+      "id": "linezolid",
+      "name": "linezolid",
+      "local_name": "Linezolid",
+      "generic_name": "linezolid",
+      "drug_class": "oxazolidinone antibiotic",
+      "cyp_pathway": [],
+      "half_life_hours": 5.5,
+      "node_type": "drug"
+    },
+    {
+      "id": "clarithromycin",
+      "name": "clarithromycin",
+      "local_name": "Klaricid",
+      "generic_name": "clarithromycin",
+      "drug_class": "macrolide antibiotic",
+      "cyp_pathway": [
+        "CYP3A4"
+      ],
+      "half_life_hours": 5.0,
+      "node_type": "drug"
+    },
+    {
+      "id": "colchicine",
+      "name": "colchicine",
+      "local_name": "Colchicine",
+      "generic_name": "Colchicine",
+      "drug_class": null,
+      "cyp_pathway": [],
+      "half_life_hours": null,
+      "node_type": "drug"
+    },
+    {
+      "id": "erythromycin",
+      "name": "erythromycin",
+      "local_name": "Erythrocin",
+      "generic_name": "erythromycin",
+      "drug_class": "macrolide antibiotic",
+      "cyp_pathway": [
+        "CYP3A4"
+      ],
+      "half_life_hours": 1.5,
+      "node_type": "drug"
+    },
+    {
+      "id": "hydrochlorothiazide",
+      "name": "hydrochlorothiazide",
+      "local_name": "Hydrochlorothiazide",
+      "generic_name": "Hydrochlorothiazide",
+      "drug_class": null,
+      "cyp_pathway": [],
+      "half_life_hours": null,
+      "node_type": "drug"
+    },
+    {
+      "id": "insulin",
+      "name": "insulin",
+      "local_name": "Actrapid",
+      "generic_name": "insulin",
+      "drug_class": "antidiabetic hormone",
+      "cyp_pathway": [],
+      "half_life_hours": 0.08,
+      "node_type": "drug"
+    },
+    {
+      "id": "levothyroxine",
+      "name": "levothyroxine",
+      "local_name": "Levothyroxine",
+      "generic_name": "Levothyroxine",
+      "drug_class": null,
+      "cyp_pathway": [],
+      "half_life_hours": null,
+      "node_type": "drug"
+    },
+    {
+      "id": "calcium",
+      "name": "calcium",
+      "local_name": "Calcium Supplement",
+      "generic_name": "Calcium",
+      "drug_class": null,
+      "cyp_pathway": [],
+      "half_life_hours": null,
+      "node_type": "drug"
+    },
+    {
+      "id": "omeprazole",
+      "name": "omeprazole",
+      "local_name": "Omez",
+      "generic_name": "omeprazole",
+      "drug_class": "proton pump inhibitor",
+      "cyp_pathway": [
+        "CYP2C19"
+      ],
+      "half_life_hours": 1.0,
+      "node_type": "drug"
+    },
+    {
+      "id": "trimethoprim",
+      "name": "trimethoprim",
+      "local_name": "Septrin",
+      "generic_name": "trimethoprim",
+      "drug_class": "antibiotic",
+      "cyp_pathway": [
+        "CYP2C8"
+      ],
+      "half_life_hours": 11.0,
+      "node_type": "drug"
+    },
+    {
+      "id": "rifampicin",
+      "name": "rifampicin",
+      "local_name": "Rifampicin",
+      "generic_name": "rifampicin",
+      "drug_class": "antibiotic/CYP inducer",
+      "cyp_pathway": [
+        "CYP3A4",
+        "CYP2C9"
+      ],
+      "half_life_hours": 3.0,
+      "node_type": "drug"
+    },
+    {
+      "id": "contrast media",
+      "name": "contrast media",
+      "local_name": "Contrast Dye",
+      "generic_name": "Contrast media",
+      "drug_class": null,
+      "cyp_pathway": [],
+      "half_life_hours": null,
+      "node_type": "drug"
+    },
+    {
+      "id": "cimetidine",
+      "name": "cimetidine",
+      "local_name": "Cimetidine",
+      "generic_name": "Cimetidine",
+      "drug_class": null,
+      "cyp_pathway": [],
+      "half_life_hours": null,
+      "node_type": "drug"
+    },
+    {
+      "id": "beta blockers",
+      "name": "beta blockers",
+      "local_name": "Beta Blocker",
+      "generic_name": "Beta blockers",
+      "drug_class": null,
+      "cyp_pathway": [],
+      "half_life_hours": null,
+      "node_type": "drug"
+    },
+    {
+      "id": "loratadine",
+      "name": "loratadine",
+      "local_name": "Clarityn",
+      "generic_name": "Loratadine",
+      "drug_class": null,
+      "cyp_pathway": [],
+      "half_life_hours": null,
+      "node_type": "drug"
+    },
+    {
+      "id": "bitter leaf",
+      "name": "bitter leaf",
+      "local_name": "bitter leaf",
+      "generic_name": "Vernonia amygdalina",
+      "drug_class": "herbal remedy",
+      "cyp_pathway": [],
+      "half_life_hours": null,
+      "node_type": "herb"
+    },
+    {
+      "id": "neem",
+      "name": "neem",
+      "local_name": "neem",
+      "generic_name": "Azadirachta indica",
+      "drug_class": "herbal remedy",
+      "cyp_pathway": [],
+      "half_life_hours": null,
+      "node_type": "herb"
+    },
+    {
+      "id": "garlic",
+      "name": "garlic",
+      "local_name": "garlic",
+      "generic_name": "Allium sativum",
+      "drug_class": "herbal remedy",
+      "cyp_pathway": [],
+      "half_life_hours": null,
+      "node_type": "herb"
+    },
+    {
+      "id": "ginger",
+      "name": "ginger",
+      "local_name": "ginger",
+      "generic_name": "Zingiber officinale",
+      "drug_class": "herbal remedy",
+      "cyp_pathway": [],
+      "half_life_hours": null,
+      "node_type": "herb"
+    },
+    {
+      "id": "moringa",
+      "name": "moringa",
+      "local_name": "moringa",
+      "generic_name": "Moringa oleifera",
+      "drug_class": "herbal remedy",
+      "cyp_pathway": [],
+      "half_life_hours": null,
+      "node_type": "herb"
+    },
+    {
+      "id": "turmeric",
+      "name": "turmeric",
+      "local_name": "turmeric/curcumin",
+      "generic_name": "Curcuma longa",
+      "drug_class": "herbal remedy",
+      "cyp_pathway": [],
+      "half_life_hours": null,
+      "node_type": "herb"
+    },
+    {
+      "id": "st john's wort",
+      "name": "st john's wort",
+      "local_name": "St John's wort",
+      "generic_name": "Hypericum perforatum",
+      "drug_class": "herbal remedy",
+      "cyp_pathway": [],
+      "half_life_hours": null,
+      "node_type": "herb"
+    },
+    {
+      "id": "ginseng",
+      "name": "ginseng",
+      "local_name": "ginseng",
+      "generic_name": "Panax ginseng",
+      "drug_class": "herbal remedy",
+      "cyp_pathway": [],
+      "half_life_hours": null,
+      "node_type": "herb"
+    },
+    {
+      "id": "kola nut",
+      "name": "kola nut",
+      "local_name": "kola nut/caffeine sources",
+      "generic_name": "Cola acuminata",
+      "drug_class": "herbal remedy",
+      "cyp_pathway": [],
+      "half_life_hours": null,
+      "node_type": "herb"
+    },
+    {
+      "id": "papaya leaf",
+      "name": "papaya leaf",
+      "local_name": "papaya leaf",
+      "generic_name": "Carica papaya",
+      "drug_class": "herbal remedy",
+      "cyp_pathway": [],
+      "half_life_hours": null,
+      "node_type": "herb"
+    },
+    {
+      "id": "aloe vera",
+      "name": "aloe vera",
+      "local_name": "aloe vera",
+      "generic_name": "Aloe barbadensis",
+      "drug_class": "herbal remedy",
+      "cyp_pathway": [],
+      "half_life_hours": null,
+      "node_type": "herb"
+    },
+    {
+      "id": "ginkgo",
+      "name": "ginkgo",
+      "local_name": "ginkgo",
+      "generic_name": "Ginkgo biloba",
+      "drug_class": "herbal remedy",
+      "cyp_pathway": [],
+      "half_life_hours": null,
+      "node_type": "herb"
+    },
+    {
+      "id": "utazi",
+      "name": "utazi",
+      "local_name": "utazi",
+      "generic_name": "Gongronema latifolium",
+      "drug_class": "herbal remedy",
+      "cyp_pathway": [],
+      "half_life_hours": null,
+      "node_type": "herb"
+    },
+    {
+      "id": "uziza",
+      "name": "uziza",
+      "local_name": "uziza",
+      "generic_name": "Piper guineense",
+      "drug_class": "herbal remedy",
+      "cyp_pathway": [],
+      "half_life_hours": null,
+      "node_type": "herb"
+    },
+    {
+      "id": "scent leaf",
+      "name": "scent leaf",
+      "local_name": "scent leaf (nchanwu)",
+      "generic_name": "Ocimum gratissimum",
+      "drug_class": "herbal remedy",
+      "cyp_pathway": [],
+      "half_life_hours": null,
+      "node_type": "herb"
+    },
+    {
+      "id": "alligator pepper",
+      "name": "alligator pepper",
+      "local_name": "alligator pepper",
+      "generic_name": "Aframomum melegueta",
+      "drug_class": "herbal remedy",
+      "cyp_pathway": [],
+      "half_life_hours": null,
+      "node_type": "herb"
+    },
+    {
+      "id": "unknown herb",
+      "name": "unknown herb",
+      "local_name": "unknown herb",
+      "generic_name": "unknown",
+      "drug_class": "herbal remedy",
+      "cyp_pathway": [],
+      "half_life_hours": null,
+      "node_type": "herb"
+    }
+  ],
+  "links": [
+    {
+      "source": "ibuprofen",
+      "target": "aspirin",
+      "severity": 3,
+      "mechanism": "Additive antiplatelet/GI effect",
+      "clinical_effect": "Ibuprofen can block aspirin's irreversible platelet binding if dosed too close together, and both irritate the stomach lining, raising bleeding/ulcer risk.",
+      "evidence_level": "established"
+    },
+    {
+      "source": "sildenafil",
+      "target": "nitroglycerin",
+      "severity": 5,
+      "mechanism": "Additive nitric-oxide/cGMP pathway effect",
+      "clinical_effect": "Both drugs amplify the same vasodilation pathway; combined use can cause severe, life-threatening hypotension. Absolute contraindication.",
+      "evidence_level": "established"
+    },
+    {
+      "source": "amlodipine",
+      "target": "simvastatin",
+      "severity": 3,
+      "mechanism": "CYP3A4 competition raises simvastatin exposure",
+      "clinical_effect": "Amlodipine modestly inhibits simvastatin's clearance, raising drug levels and myopathy risk at higher simvastatin doses (cap at 20mg/day per FDA guidance).",
+      "evidence_level": "established"
+    },
+    {
+      "source": "paracetamol",
+      "target": "warfarin",
+      "severity": 3,
+      "mechanism": "Possible potentiation of anticoagulant effect",
+      "clinical_effect": "Regular high-dose paracetamol use over several days can modestly increase INR in some patients; occasional single doses are not typically an issue.",
+      "evidence_level": "probable"
+    },
+    {
+      "source": "warfarin",
+      "target": "trimethoprim",
+      "severity": 4,
+      "mechanism": "CYP2C9 inhibition raises warfarin levels",
+      "clinical_effect": "Trimethoprim (often as co-trimoxazole/Septrin) inhibits warfarin metabolism and displaces it from protein binding, sharply raising bleeding risk.",
+      "evidence_level": "established"
+    },
+    {
+      "source": "aspirin",
+      "target": "clopidogrel",
+      "severity": 3,
+      "mechanism": "Additive antiplatelet effect",
+      "clinical_effect": "Deliberately combined after cardiac stents under close supervision, but outside that context raises bleeding risk without added benefit.",
+      "evidence_level": "established"
+    },
+    {
+      "source": "metformin",
+      "target": "contrast media",
+      "severity": 4,
+      "mechanism": "Risk of contrast-induced lactic acidosis",
+      "clinical_effect": "IV contrast dye can transiently impair kidney function; reduced clearance of metformin raises lactic acidosis risk. Usually held before/after contrast imaging.",
+      "evidence_level": "established"
+    },
+    {
+      "source": "metformin",
+      "target": "cimetidine",
+      "severity": 3,
+      "mechanism": "Reduced renal clearance of metformin",
+      "clinical_effect": "Cimetidine competes for the same renal transporter that clears metformin, raising metformin levels.",
+      "evidence_level": "established"
+    },
+    {
+      "source": "simvastatin",
+      "target": "grapefruit",
+      "severity": 4,
+      "mechanism": "CYP3A4 inhibition raises simvastatin exposure",
+      "clinical_effect": "Grapefruit strongly inhibits intestinal CYP3A4, which can multiply simvastatin blood levels and significantly raise myopathy/rhabdomyolysis risk.",
+      "evidence_level": "established"
+    },
+    {
+      "source": "amlodipine",
+      "target": "lisinopril",
+      "severity": 2,
+      "mechanism": "Complementary antihypertensive combination",
+      "clinical_effect": "Commonly and safely combined for blood pressure control; watch for additive hypotension when starting both together.",
+      "evidence_level": "established"
+    },
+    {
+      "source": "sildenafil",
+      "target": "doxazosin",
+      "severity": 3,
+      "mechanism": "Additive alpha-blocker/vasodilator hypotension",
+      "clinical_effect": "Both lower blood pressure through different vasodilatory mechanisms; combined use raises symptomatic hypotension risk, especially on standing.",
+      "evidence_level": "established"
+    },
+    {
+      "source": "nitroglycerin",
+      "target": "tadalafil",
+      "severity": 5,
+      "mechanism": "Additive nitric-oxide/cGMP pathway effect",
+      "clinical_effect": "Same mechanism as sildenafil + nitrates: severe, potentially fatal hypotension. Absolute contraindication.",
+      "evidence_level": "established"
+    },
+    {
+      "source": "fluoxetine",
+      "target": "tramadol",
+      "severity": 4,
+      "mechanism": "Serotonin syndrome risk",
+      "clinical_effect": "Both raise synaptic serotonin; combined use can precipitate serotonin syndrome (agitation, fever, tremor, in severe cases life-threatening).",
+      "evidence_level": "established"
+    },
+    {
+      "source": "sertraline",
+      "target": "linezolid",
+      "severity": 5,
+      "mechanism": "Serotonin syndrome risk",
+      "clinical_effect": "Linezolid is a weak MAOI; combined with an SSRI it carries a serious, well-documented serotonin syndrome risk.",
+      "evidence_level": "established"
+    },
+    {
+      "source": "clarithromycin",
+      "target": "colchicine",
+      "severity": 4,
+      "mechanism": "CYP3A4/P-glycoprotein inhibition raises colchicine levels",
+      "clinical_effect": "Clarithromycin blocks colchicine's clearance pathways, and colchicine has a narrow safety margin \u2014 toxicity (including fatal cases) has been reported.",
+      "evidence_level": "established"
+    },
+    {
+      "source": "erythromycin",
+      "target": "warfarin",
+      "severity": 4,
+      "mechanism": "CYP3A4 inhibition potentiates warfarin",
+      "clinical_effect": "Erythromycin inhibits warfarin's metabolism, raising INR and bleeding risk.",
+      "evidence_level": "established"
+    },
+    {
+      "source": "lisinopril",
+      "target": "potassium",
+      "severity": 3,
+      "mechanism": "Additive hyperkalemia risk",
+      "clinical_effect": "ACE inhibitors already reduce potassium excretion; adding a potassium supplement can push levels dangerously high, especially with reduced kidney function.",
+      "evidence_level": "established"
+    },
+    {
+      "source": "hydrochlorothiazide",
+      "target": "lithium",
+      "severity": 4,
+      "mechanism": "Reduced renal clearance of lithium",
+      "clinical_effect": "Thiazide diuretics reduce lithium excretion, which has a narrow safety margin \u2014 this combination frequently causes lithium toxicity if not dose-adjusted and monitored.",
+      "evidence_level": "established"
+    },
+    {
+      "source": "insulin",
+      "target": "beta blockers",
+      "severity": 3,
+      "mechanism": "Masked hypoglycemia symptoms",
+      "clinical_effect": "Beta blockers blunt the adrenaline-driven warning signs of low blood sugar (tremor, palpitations), so hypoglycemia can go unnoticed longer.",
+      "evidence_level": "established"
+    },
+    {
+      "source": "levothyroxine",
+      "target": "calcium",
+      "severity": 2,
+      "mechanism": "Reduced levothyroxine absorption",
+      "clinical_effect": "Calcium binds levothyroxine in the gut if taken together, reducing absorption \u2014 usually managed by spacing doses 4 hours apart.",
+      "evidence_level": "established"
+    },
+    {
+      "source": "loratadine",
+      "target": "alcohol",
+      "severity": 2,
+      "mechanism": "Mild additive sedation",
+      "clinical_effect": "Loratadine is non-sedating for most people, but a minority still experience added drowsiness with alcohol.",
+      "evidence_level": "probable"
+    },
+    {
+      "source": "warfarin",
+      "target": "aspirin",
+      "severity": 4,
+      "mechanism": "Additive antiplatelet effect plus GI mucosal irritation",
+      "clinical_effect": "Increased bleeding risk, especially GI bleeding",
+      "evidence_level": "established"
+    },
+    {
+      "source": "warfarin",
+      "target": "ibuprofen",
+      "severity": 4,
+      "mechanism": "CYP2C9 inhibition + antiplatelet effect + GI mucosal damage",
+      "clinical_effect": "Increased bleeding risk and unpredictable INR",
+      "evidence_level": "established"
+    },
+    {
+      "source": "rifampicin",
+      "target": "warfarin",
+      "severity": 5,
+      "mechanism": "CYP3A4 and CYP2C9 induction reduces warfarin levels",
+      "clinical_effect": "Markedly reduced anticoagulant effect, risk of thrombosis",
+      "evidence_level": "established"
+    },
+    {
+      "source": "ciprofloxacin",
+      "target": "warfarin",
+      "severity": 4,
+      "mechanism": "CYP2C9 inhibition and altered gut flora affecting vitamin K",
+      "clinical_effect": "Elevated INR, increased bleeding risk",
+      "evidence_level": "established"
+    },
+    {
+      "source": "omeprazole",
+      "target": "warfarin",
+      "severity": 3,
+      "mechanism": "CYP2C19 inhibition mildly increases warfarin exposure",
+      "clinical_effect": "Modest INR elevation, monitor closely",
+      "evidence_level": "probable"
+    },
+    {
+      "source": "warfarin",
+      "target": "amiodarone",
+      "severity": 5,
+      "mechanism": "CYP2C9 and CYP3A4 inhibition dramatically increases warfarin",
+      "clinical_effect": "Severe bleeding risk, INR can double or triple",
+      "evidence_level": "established"
+    },
+    {
+      "source": "simvastatin",
+      "target": "warfarin",
+      "severity": 3,
+      "mechanism": "Mild CYP2C9 competition",
+      "clinical_effect": "Slight INR increase, monitor on initiation",
+      "evidence_level": "suspected"
+    },
+    {
+      "source": "simvastatin",
+      "target": "clarithromycin",
+      "severity": 4,
+      "mechanism": "CYP3A4 inhibition raises simvastatin AUC 10-fold",
+      "clinical_effect": "Myopathy and rhabdomyolysis risk",
+      "evidence_level": "established"
+    },
+    {
+      "source": "simvastatin",
+      "target": "amiodarone",
+      "severity": 4,
+      "mechanism": "CYP3A4 inhibition and P-glycoprotein effects",
+      "clinical_effect": "Myopathy risk; simvastatin dose limit 20mg",
+      "evidence_level": "established"
+    },
+    {
+      "source": "atorvastatin",
+      "target": "clarithromycin",
+      "severity": 4,
+      "mechanism": "CYP3A4 inhibition increases atorvastatin exposure",
+      "clinical_effect": "Myopathy and rhabdomyolysis risk",
+      "evidence_level": "established"
+    },
+    {
+      "source": "atorvastatin",
+      "target": "amlodipine",
+      "severity": 2,
+      "mechanism": "Mild CYP3A4 competition",
+      "clinical_effect": "Minor atorvastatin level increase, clinically low risk",
+      "evidence_level": "suspected"
+    },
+    {
+      "source": "sertraline",
+      "target": "tramadol",
+      "severity": 4,
+      "mechanism": "Additive serotonergic activity and CYP2D6 competition",
+      "clinical_effect": "Serotonin syndrome, seizure risk",
+      "evidence_level": "established"
+    },
+    {
+      "source": "linezolid",
+      "target": "fluoxetine",
+      "severity": 5,
+      "mechanism": "Linezolid is a weak MAOI; combined serotonergic effect",
+      "clinical_effect": "Serotonin syndrome",
+      "evidence_level": "established"
+    },
+    {
+      "source": "sertraline",
+      "target": "lithium",
+      "severity": 3,
+      "mechanism": "Additive serotonin enhancement",
+      "clinical_effect": "Increased serotonin effects, tremor, possible serotonin syndrome",
+      "evidence_level": "probable"
+    },
+    {
+      "source": "lithium",
+      "target": "ibuprofen",
+      "severity": 4,
+      "mechanism": "NSAIDs reduce renal lithium clearance",
+      "clinical_effect": "Lithium toxicity: tremor, ataxia, confusion",
+      "evidence_level": "established"
+    },
+    {
+      "source": "lisinopril",
+      "target": "ibuprofen",
+      "severity": 3,
+      "mechanism": "NSAIDs antagonise ACE inhibitor vasodilation and increase renal risk",
+      "clinical_effect": "Reduced antihypertensive effect, acute kidney injury risk",
+      "evidence_level": "established"
+    },
+    {
+      "source": "furosemide",
+      "target": "ibuprofen",
+      "severity": 3,
+      "mechanism": "NSAIDs antagonise prostaglandin-mediated diuresis",
+      "clinical_effect": "Reduced diuretic effect, fluid retention",
+      "evidence_level": "established"
+    },
+    {
+      "source": "metformin",
+      "target": "alcohol",
+      "severity": 3,
+      "mechanism": "Alcohol inhibits gluconeogenesis and increases lactate production",
+      "clinical_effect": "Lactic acidosis risk",
+      "evidence_level": "probable"
+    },
+    {
+      "source": "digoxin",
+      "target": "amiodarone",
+      "severity": 4,
+      "mechanism": "P-glycoprotein inhibition + reduced renal clearance",
+      "clinical_effect": "Digoxin toxicity: bradycardia, arrhythmia, visual disturbance",
+      "evidence_level": "established"
+    },
+    {
+      "source": "digoxin",
+      "target": "clarithromycin",
+      "severity": 4,
+      "mechanism": "P-glycoprotein inhibition increases digoxin absorption",
+      "clinical_effect": "Digoxin toxicity",
+      "evidence_level": "established"
+    },
+    {
+      "source": "digoxin",
+      "target": "furosemide",
+      "severity": 3,
+      "mechanism": "Furosemide-induced hypokalaemia sensitises heart to digoxin",
+      "clinical_effect": "Increased digoxin toxicity risk",
+      "evidence_level": "established"
+    },
+    {
+      "source": "ciprofloxacin",
+      "target": "theophylline",
+      "severity": 4,
+      "mechanism": "CYP1A2 inhibition increases theophylline plasma levels",
+      "clinical_effect": "Theophylline toxicity: nausea, arrhythmia, seizures",
+      "evidence_level": "established"
+    },
+    {
+      "source": "clopidogrel",
+      "target": "omeprazole",
+      "severity": 3,
+      "mechanism": "CYP2C19 inhibition reduces clopidogrel activation",
+      "clinical_effect": "Reduced antiplatelet effect, increased cardiovascular event risk",
+      "evidence_level": "established"
+    },
+    {
+      "source": "lithium",
+      "target": "furosemide",
+      "severity": 4,
+      "mechanism": "Furosemide reduces sodium, kidneys reabsorb more lithium",
+      "clinical_effect": "Lithium toxicity: tremor, confusion, cardiac arrhythmia",
+      "evidence_level": "established"
+    },
+    {
+      "source": "erythromycin",
+      "target": "theophylline",
+      "severity": 4,
+      "mechanism": "CYP3A4 and CYP1A2 inhibition increase theophylline levels",
+      "clinical_effect": "Theophylline toxicity: nausea, arrhythmia, seizures",
+      "evidence_level": "established"
+    }
+  ]
+}

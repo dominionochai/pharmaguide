@@ -1,0 +1,949 @@
+{
+  "drugs": [
+    {
+      "name": "warfarin",
+      "generic_name": "warfarin sodium",
+      "drug_class": "anticoagulant",
+      "cyp_pathway": [
+        "CYP2C9",
+        "CYP3A4"
+      ],
+      "half_life_hours": 40.0,
+      "local_name": "Warfarin"
+    },
+    {
+      "name": "fluconazole",
+      "generic_name": "fluconazole",
+      "drug_class": "antifungal",
+      "cyp_pathway": [
+        "CYP2C9",
+        "CYP3A4"
+      ],
+      "half_life_hours": 30.0,
+      "local_name": "Flucogal"
+    },
+    {
+      "name": "aspirin",
+      "generic_name": "acetylsalicylic acid",
+      "drug_class": "NSAID/antiplatelet",
+      "cyp_pathway": [],
+      "half_life_hours": 0.25,
+      "local_name": "Aspirin"
+    },
+    {
+      "name": "ibuprofen",
+      "generic_name": "ibuprofen",
+      "drug_class": "NSAID",
+      "cyp_pathway": [
+        "CYP2C9"
+      ],
+      "half_life_hours": 2.0,
+      "local_name": "Ibucap"
+    },
+    {
+      "name": "simvastatin",
+      "generic_name": "simvastatin",
+      "drug_class": "statin",
+      "cyp_pathway": [
+        "CYP3A4"
+      ],
+      "half_life_hours": 3.0,
+      "local_name": "Simvastatin"
+    },
+    {
+      "name": "clarithromycin",
+      "generic_name": "clarithromycin",
+      "drug_class": "macrolide antibiotic",
+      "cyp_pathway": [
+        "CYP3A4"
+      ],
+      "half_life_hours": 5.0,
+      "local_name": "Klaricid"
+    },
+    {
+      "name": "clopidogrel",
+      "generic_name": "clopidogrel",
+      "drug_class": "antiplatelet",
+      "cyp_pathway": [
+        "CYP2C19"
+      ],
+      "half_life_hours": 6.0,
+      "local_name": "Plavix"
+    },
+    {
+      "name": "omeprazole",
+      "generic_name": "omeprazole",
+      "drug_class": "proton pump inhibitor",
+      "cyp_pathway": [
+        "CYP2C19"
+      ],
+      "half_life_hours": 1.0,
+      "local_name": "Omez"
+    },
+    {
+      "name": "digoxin",
+      "generic_name": "digoxin",
+      "drug_class": "cardiac glycoside",
+      "cyp_pathway": [],
+      "half_life_hours": 36.0,
+      "local_name": "Lanoxin"
+    },
+    {
+      "name": "amiodarone",
+      "generic_name": "amiodarone",
+      "drug_class": "antiarrhythmic",
+      "cyp_pathway": [
+        "CYP2C9",
+        "CYP3A4"
+      ],
+      "half_life_hours": 1200.0,
+      "local_name": "Cordarone"
+    },
+    {
+      "name": "lithium",
+      "generic_name": "lithium carbonate",
+      "drug_class": "mood stabiliser",
+      "cyp_pathway": [],
+      "half_life_hours": 24.0,
+      "local_name": "Lithium"
+    },
+    {
+      "name": "methotrexate",
+      "generic_name": "methotrexate",
+      "drug_class": "immunosuppressant",
+      "cyp_pathway": [],
+      "half_life_hours": 8.0,
+      "local_name": "Methotrexate"
+    },
+    {
+      "name": "ciprofloxacin",
+      "generic_name": "ciprofloxacin",
+      "drug_class": "fluoroquinolone antibiotic",
+      "cyp_pathway": [
+        "CYP1A2"
+      ],
+      "half_life_hours": 4.0,
+      "local_name": "Ciprotab"
+    },
+    {
+      "name": "antacid",
+      "generic_name": "aluminium/magnesium hydroxide",
+      "drug_class": "antacid",
+      "cyp_pathway": [],
+      "half_life_hours": 0.5,
+      "local_name": "Gaviscon"
+    },
+    {
+      "name": "metformin",
+      "generic_name": "metformin hydrochloride",
+      "drug_class": "antidiabetic",
+      "cyp_pathway": [],
+      "half_life_hours": 6.0,
+      "local_name": "Glucophage"
+    },
+    {
+      "name": "contrast_dye",
+      "generic_name": "iodinated contrast media",
+      "drug_class": "diagnostic agent",
+      "cyp_pathway": [],
+      "half_life_hours": 2.0,
+      "local_name": "Contrast Dye"
+    },
+    {
+      "name": "fluoxetine",
+      "generic_name": "fluoxetine hydrochloride",
+      "drug_class": "SSRI",
+      "cyp_pathway": [
+        "CYP2D6",
+        "CYP2C9"
+      ],
+      "half_life_hours": 72.0,
+      "local_name": "Prozac"
+    },
+    {
+      "name": "phenelzine",
+      "generic_name": "phenelzine sulfate",
+      "drug_class": "MAOI",
+      "cyp_pathway": [],
+      "half_life_hours": 12.0,
+      "local_name": "Phenelzine"
+    },
+    {
+      "name": "sertraline",
+      "generic_name": "sertraline hydrochloride",
+      "drug_class": "SSRI",
+      "cyp_pathway": [
+        "CYP2D6"
+      ],
+      "half_life_hours": 26.0,
+      "local_name": "Zoloft"
+    },
+    {
+      "name": "tramadol",
+      "generic_name": "tramadol hydrochloride",
+      "drug_class": "opioid analgesic",
+      "cyp_pathway": [
+        "CYP2D6",
+        "CYP3A4"
+      ],
+      "half_life_hours": 6.0,
+      "local_name": "Tramal"
+    },
+    {
+      "name": "paroxetine",
+      "generic_name": "paroxetine hydrochloride",
+      "drug_class": "SSRI",
+      "cyp_pathway": [
+        "CYP2D6"
+      ],
+      "half_life_hours": 21.0,
+      "local_name": "Seroxat"
+    },
+    {
+      "name": "sumatriptan",
+      "generic_name": "sumatriptan succinate",
+      "drug_class": "triptan",
+      "cyp_pathway": [],
+      "half_life_hours": 2.5,
+      "local_name": "Imigran"
+    },
+    {
+      "name": "linezolid",
+      "generic_name": "linezolid",
+      "drug_class": "oxazolidinone antibiotic",
+      "cyp_pathway": [],
+      "half_life_hours": 5.5,
+      "local_name": "Linezolid"
+    },
+    {
+      "name": "naproxen",
+      "generic_name": "naproxen sodium",
+      "drug_class": "NSAID",
+      "cyp_pathway": [
+        "CYP2C9"
+      ],
+      "half_life_hours": 14.0,
+      "local_name": "Naprosyn"
+    },
+    {
+      "name": "furosemide",
+      "generic_name": "furosemide",
+      "drug_class": "loop diuretic",
+      "cyp_pathway": [],
+      "half_life_hours": 1.5,
+      "local_name": "Lasix"
+    },
+    {
+      "name": "lisinopril",
+      "generic_name": "lisinopril",
+      "drug_class": "ACE inhibitor",
+      "cyp_pathway": [],
+      "half_life_hours": 12.0,
+      "local_name": "Zestril"
+    },
+    {
+      "name": "atorvastatin",
+      "generic_name": "atorvastatin calcium",
+      "drug_class": "statin",
+      "cyp_pathway": [
+        "CYP3A4"
+      ],
+      "half_life_hours": 14.0,
+      "local_name": "Lipitor"
+    },
+    {
+      "name": "gemfibrozil",
+      "generic_name": "gemfibrozil",
+      "drug_class": "fibrate",
+      "cyp_pathway": [
+        "CYP2C8"
+      ],
+      "half_life_hours": 1.5,
+      "local_name": "Gemfibrozil"
+    },
+    {
+      "name": "glipizide",
+      "generic_name": "glipizide",
+      "drug_class": "sulfonylurea",
+      "cyp_pathway": [
+        "CYP2C9"
+      ],
+      "half_life_hours": 3.0,
+      "local_name": "Glucotrol"
+    },
+    {
+      "name": "propranolol",
+      "generic_name": "propranolol hydrochloride",
+      "drug_class": "beta-blocker",
+      "cyp_pathway": [
+        "CYP2D6"
+      ],
+      "half_life_hours": 4.0,
+      "local_name": "Inderal"
+    },
+    {
+      "name": "spironolactone",
+      "generic_name": "spironolactone",
+      "drug_class": "potassium-sparing diuretic",
+      "cyp_pathway": [],
+      "half_life_hours": 20.0,
+      "local_name": "Aldactone"
+    },
+    {
+      "name": "verapamil",
+      "generic_name": "verapamil hydrochloride",
+      "drug_class": "calcium channel blocker",
+      "cyp_pathway": [
+        "CYP3A4"
+      ],
+      "half_life_hours": 6.0,
+      "local_name": "Isoptin"
+    },
+    {
+      "name": "theophylline",
+      "generic_name": "theophylline",
+      "drug_class": "bronchodilator",
+      "cyp_pathway": [
+        "CYP1A2"
+      ],
+      "half_life_hours": 8.0,
+      "local_name": "Theophylline"
+    },
+    {
+      "name": "levofloxacin",
+      "generic_name": "levofloxacin",
+      "drug_class": "fluoroquinolone antibiotic",
+      "cyp_pathway": [],
+      "half_life_hours": 7.0,
+      "local_name": "Tavanic"
+    },
+    {
+      "name": "dextromethorphan",
+      "generic_name": "dextromethorphan hydrobromide",
+      "drug_class": "antitussive",
+      "cyp_pathway": [
+        "CYP2D6"
+      ],
+      "half_life_hours": 4.0,
+      "local_name": "Benylin"
+    },
+    {
+      "name": "cyclosporine",
+      "generic_name": "ciclosporin",
+      "drug_class": "immunosuppressant",
+      "cyp_pathway": [
+        "CYP3A4"
+      ],
+      "half_life_hours": 19.0,
+      "local_name": "Cyclosporine"
+    },
+    {
+      "name": "tacrolimus",
+      "generic_name": "tacrolimus",
+      "drug_class": "immunosuppressant",
+      "cyp_pathway": [
+        "CYP3A4"
+      ],
+      "half_life_hours": 12.0,
+      "local_name": "Prograf"
+    },
+    {
+      "name": "trimethoprim",
+      "generic_name": "trimethoprim",
+      "drug_class": "antibiotic",
+      "cyp_pathway": [
+        "CYP2C8"
+      ],
+      "half_life_hours": 11.0,
+      "local_name": "Septrin"
+    },
+    {
+      "name": "azathioprine",
+      "generic_name": "azathioprine",
+      "drug_class": "immunosuppressant",
+      "cyp_pathway": [],
+      "half_life_hours": 5.0,
+      "local_name": "Azathioprine"
+    },
+    {
+      "name": "allopurinol",
+      "generic_name": "allopurinol",
+      "drug_class": "xanthine oxidase inhibitor",
+      "cyp_pathway": [],
+      "half_life_hours": 1.5,
+      "local_name": "Zyloric"
+    },
+    {
+      "name": "erythromycin",
+      "generic_name": "erythromycin",
+      "drug_class": "macrolide antibiotic",
+      "cyp_pathway": [
+        "CYP3A4"
+      ],
+      "half_life_hours": 1.5,
+      "local_name": "Erythrocin"
+    },
+    {
+      "name": "carbamazepine",
+      "generic_name": "carbamazepine",
+      "drug_class": "anticonvulsant",
+      "cyp_pathway": [
+        "CYP3A4",
+        "CYP2C8"
+      ],
+      "half_life_hours": 15.0,
+      "local_name": "Tegretol"
+    },
+    {
+      "name": "rifampicin",
+      "generic_name": "rifampicin",
+      "drug_class": "antibiotic/CYP inducer",
+      "cyp_pathway": [
+        "CYP3A4",
+        "CYP2C9"
+      ],
+      "half_life_hours": 3.0,
+      "local_name": "Rifampicin"
+    },
+    {
+      "name": "tamoxifen",
+      "generic_name": "tamoxifen citrate",
+      "drug_class": "SERM",
+      "cyp_pathway": [
+        "CYP2D6",
+        "CYP3A4"
+      ],
+      "half_life_hours": 168.0,
+      "local_name": "Nolvadex"
+    },
+    {
+      "name": "amlodipine",
+      "generic_name": "amlodipine besylate",
+      "drug_class": "calcium channel blocker",
+      "cyp_pathway": [
+        "CYP3A4"
+      ],
+      "half_life_hours": 40.0,
+      "local_name": "Norvasc"
+    },
+    {
+      "name": "alcohol",
+      "generic_name": "ethanol",
+      "drug_class": "CNS depressant",
+      "cyp_pathway": [
+        "CYP2E1"
+      ],
+      "half_life_hours": 1.0,
+      "local_name": "Alcohol"
+    },
+    {
+      "name": "pseudoephedrine",
+      "generic_name": "pseudoephedrine hydrochloride",
+      "drug_class": "sympathomimetic",
+      "cyp_pathway": [],
+      "half_life_hours": 6.0,
+      "local_name": "Sudafed"
+    },
+    {
+      "name": "meperidine",
+      "generic_name": "pethidine hydrochloride",
+      "drug_class": "opioid analgesic",
+      "cyp_pathway": [
+        "CYP2B6",
+        "CYP3A4"
+      ],
+      "half_life_hours": 3.5,
+      "local_name": "Pethidine"
+    },
+    {
+      "name": "insulin",
+      "generic_name": "insulin",
+      "drug_class": "antidiabetic hormone",
+      "cyp_pathway": [],
+      "half_life_hours": 0.08,
+      "local_name": "Actrapid"
+    }
+  ],
+  "interactions": [
+    {
+      "drug_a": "warfarin",
+      "drug_b": "fluconazole",
+      "severity": 5,
+      "mechanism": "CYP2C9 inhibition increases warfarin plasma concentration",
+      "clinical_effect": "Significantly increased bleeding risk, INR elevation",
+      "evidence_level": "established"
+    },
+    {
+      "drug_a": "warfarin",
+      "drug_b": "aspirin",
+      "severity": 4,
+      "mechanism": "Additive antiplatelet effect plus GI mucosal irritation",
+      "clinical_effect": "Increased bleeding risk, especially GI bleeding",
+      "evidence_level": "established"
+    },
+    {
+      "drug_a": "warfarin",
+      "drug_b": "ibuprofen",
+      "severity": 4,
+      "mechanism": "CYP2C9 inhibition + antiplatelet effect + GI mucosal damage",
+      "clinical_effect": "Increased bleeding risk and unpredictable INR",
+      "evidence_level": "established"
+    },
+    {
+      "drug_a": "warfarin",
+      "drug_b": "rifampicin",
+      "severity": 5,
+      "mechanism": "CYP3A4 and CYP2C9 induction reduces warfarin levels",
+      "clinical_effect": "Markedly reduced anticoagulant effect, risk of thrombosis",
+      "evidence_level": "established"
+    },
+    {
+      "drug_a": "warfarin",
+      "drug_b": "ciprofloxacin",
+      "severity": 4,
+      "mechanism": "CYP2C9 inhibition and altered gut flora affecting vitamin K",
+      "clinical_effect": "Elevated INR, increased bleeding risk",
+      "evidence_level": "established"
+    },
+    {
+      "drug_a": "warfarin",
+      "drug_b": "omeprazole",
+      "severity": 3,
+      "mechanism": "CYP2C19 inhibition mildly increases warfarin exposure",
+      "clinical_effect": "Modest INR elevation, monitor closely",
+      "evidence_level": "probable"
+    },
+    {
+      "drug_a": "warfarin",
+      "drug_b": "amiodarone",
+      "severity": 5,
+      "mechanism": "CYP2C9 and CYP3A4 inhibition dramatically increases warfarin",
+      "clinical_effect": "Severe bleeding risk, INR can double or triple",
+      "evidence_level": "established"
+    },
+    {
+      "drug_a": "warfarin",
+      "drug_b": "simvastatin",
+      "severity": 3,
+      "mechanism": "Mild CYP2C9 competition",
+      "clinical_effect": "Slight INR increase, monitor on initiation",
+      "evidence_level": "suspected"
+    },
+    {
+      "drug_a": "simvastatin",
+      "drug_b": "clarithromycin",
+      "severity": 4,
+      "mechanism": "CYP3A4 inhibition raises simvastatin AUC 10-fold",
+      "clinical_effect": "Myopathy and rhabdomyolysis risk",
+      "evidence_level": "established"
+    },
+    {
+      "drug_a": "simvastatin",
+      "drug_b": "fluconazole",
+      "severity": 4,
+      "mechanism": "CYP3A4 inhibition raises simvastatin levels",
+      "clinical_effect": "Rhabdomyolysis risk",
+      "evidence_level": "established"
+    },
+    {
+      "drug_a": "simvastatin",
+      "drug_b": "gemfibrozil",
+      "severity": 4,
+      "mechanism": "OATP1B1 inhibition increases statin exposure",
+      "clinical_effect": "High risk of myopathy and rhabdomyolysis",
+      "evidence_level": "established"
+    },
+    {
+      "drug_a": "simvastatin",
+      "drug_b": "amiodarone",
+      "severity": 4,
+      "mechanism": "CYP3A4 inhibition and P-glycoprotein effects",
+      "clinical_effect": "Myopathy risk; simvastatin dose limit 20mg",
+      "evidence_level": "established"
+    },
+    {
+      "drug_a": "atorvastatin",
+      "drug_b": "clarithromycin",
+      "severity": 4,
+      "mechanism": "CYP3A4 inhibition increases atorvastatin exposure",
+      "clinical_effect": "Myopathy and rhabdomyolysis risk",
+      "evidence_level": "established"
+    },
+    {
+      "drug_a": "atorvastatin",
+      "drug_b": "amlodipine",
+      "severity": 2,
+      "mechanism": "Mild CYP3A4 competition",
+      "clinical_effect": "Minor atorvastatin level increase, clinically low risk",
+      "evidence_level": "suspected"
+    },
+    {
+      "drug_a": "fluoxetine",
+      "drug_b": "phenelzine",
+      "severity": 5,
+      "mechanism": "Combined serotonergic and MAO inhibition",
+      "clinical_effect": "Life-threatening serotonin syndrome",
+      "evidence_level": "established"
+    },
+    {
+      "drug_a": "sertraline",
+      "drug_b": "tramadol",
+      "severity": 4,
+      "mechanism": "Additive serotonergic activity and CYP2D6 competition",
+      "clinical_effect": "Serotonin syndrome, seizure risk",
+      "evidence_level": "established"
+    },
+    {
+      "drug_a": "paroxetine",
+      "drug_b": "sumatriptan",
+      "severity": 3,
+      "mechanism": "Additive serotonergic stimulation",
+      "clinical_effect": "Serotonin syndrome risk",
+      "evidence_level": "probable"
+    },
+    {
+      "drug_a": "fluoxetine",
+      "drug_b": "linezolid",
+      "severity": 5,
+      "mechanism": "Linezolid is a weak MAOI; combined serotonergic effect",
+      "clinical_effect": "Serotonin syndrome",
+      "evidence_level": "established"
+    },
+    {
+      "drug_a": "sertraline",
+      "drug_b": "lithium",
+      "severity": 3,
+      "mechanism": "Additive serotonin enhancement",
+      "clinical_effect": "Increased serotonin effects, tremor, possible serotonin syndrome",
+      "evidence_level": "probable"
+    },
+    {
+      "drug_a": "fluoxetine",
+      "drug_b": "tamoxifen",
+      "severity": 4,
+      "mechanism": "CYP2D6 inhibition reduces tamoxifen activation to endoxifen",
+      "clinical_effect": "Significantly reduced tamoxifen efficacy",
+      "evidence_level": "established"
+    },
+    {
+      "drug_a": "ibuprofen",
+      "drug_b": "lithium",
+      "severity": 4,
+      "mechanism": "NSAIDs reduce renal lithium clearance",
+      "clinical_effect": "Lithium toxicity: tremor, ataxia, confusion",
+      "evidence_level": "established"
+    },
+    {
+      "drug_a": "methotrexate",
+      "drug_b": "ibuprofen",
+      "severity": 4,
+      "mechanism": "NSAIDs compete for renal tubular secretion, reducing MTX excretion",
+      "clinical_effect": "Methotrexate toxicity: bone marrow suppression, mucositis",
+      "evidence_level": "established"
+    },
+    {
+      "drug_a": "ibuprofen",
+      "drug_b": "lisinopril",
+      "severity": 3,
+      "mechanism": "NSAIDs antagonise ACE inhibitor vasodilation and increase renal risk",
+      "clinical_effect": "Reduced antihypertensive effect, acute kidney injury risk",
+      "evidence_level": "established"
+    },
+    {
+      "drug_a": "ibuprofen",
+      "drug_b": "furosemide",
+      "severity": 3,
+      "mechanism": "NSAIDs antagonise prostaglandin-mediated diuresis",
+      "clinical_effect": "Reduced diuretic effect, fluid retention",
+      "evidence_level": "established"
+    },
+    {
+      "drug_a": "naproxen",
+      "drug_b": "warfarin",
+      "severity": 4,
+      "mechanism": "CYP2C9 inhibition + antiplatelet + GI mucosal effects",
+      "clinical_effect": "Increased bleeding risk and INR elevation",
+      "evidence_level": "established"
+    },
+    {
+      "drug_a": "aspirin",
+      "drug_b": "methotrexate",
+      "severity": 4,
+      "mechanism": "Reduced renal MTX excretion via tubular competition",
+      "clinical_effect": "Methotrexate toxicity at high aspirin doses",
+      "evidence_level": "probable"
+    },
+    {
+      "drug_a": "metformin",
+      "drug_b": "contrast_dye",
+      "severity": 4,
+      "mechanism": "Contrast-induced nephropathy reduces metformin renal excretion",
+      "clinical_effect": "Lactic acidosis risk",
+      "evidence_level": "established"
+    },
+    {
+      "drug_a": "glipizide",
+      "drug_b": "fluconazole",
+      "severity": 4,
+      "mechanism": "CYP2C9 inhibition increases glipizide levels",
+      "clinical_effect": "Severe hypoglycaemia",
+      "evidence_level": "established"
+    },
+    {
+      "drug_a": "metformin",
+      "drug_b": "alcohol",
+      "severity": 3,
+      "mechanism": "Alcohol inhibits gluconeogenesis and increases lactate production",
+      "clinical_effect": "Lactic acidosis risk",
+      "evidence_level": "probable"
+    },
+    {
+      "drug_a": "propranolol",
+      "drug_b": "insulin",
+      "severity": 3,
+      "mechanism": "Beta-blockade masks tachycardia and prolongs hypoglycaemia",
+      "clinical_effect": "Masked hypoglycaemia, prolonged recovery",
+      "evidence_level": "established"
+    },
+    {
+      "drug_a": "digoxin",
+      "drug_b": "amiodarone",
+      "severity": 4,
+      "mechanism": "P-glycoprotein inhibition + reduced renal clearance",
+      "clinical_effect": "Digoxin toxicity: bradycardia, arrhythmia, visual disturbance",
+      "evidence_level": "established"
+    },
+    {
+      "drug_a": "digoxin",
+      "drug_b": "clarithromycin",
+      "severity": 4,
+      "mechanism": "P-glycoprotein inhibition increases digoxin absorption",
+      "clinical_effect": "Digoxin toxicity",
+      "evidence_level": "established"
+    },
+    {
+      "drug_a": "digoxin",
+      "drug_b": "furosemide",
+      "severity": 3,
+      "mechanism": "Furosemide-induced hypokalaemia sensitises heart to digoxin",
+      "clinical_effect": "Increased digoxin toxicity risk",
+      "evidence_level": "established"
+    },
+    {
+      "drug_a": "digoxin",
+      "drug_b": "spironolactone",
+      "severity": 3,
+      "mechanism": "Spironolactone reduces renal digoxin clearance",
+      "clinical_effect": "Elevated digoxin levels",
+      "evidence_level": "probable"
+    },
+    {
+      "drug_a": "digoxin",
+      "drug_b": "verapamil",
+      "severity": 4,
+      "mechanism": "P-glycoprotein inhibition + reduced renal clearance",
+      "clinical_effect": "Digoxin toxicity, AV block",
+      "evidence_level": "established"
+    },
+    {
+      "drug_a": "ciprofloxacin",
+      "drug_b": "antacid",
+      "severity": 3,
+      "mechanism": "Chelation of ciprofloxacin by aluminium/magnesium ions",
+      "clinical_effect": "Reduced ciprofloxacin absorption and efficacy",
+      "evidence_level": "established"
+    },
+    {
+      "drug_a": "ciprofloxacin",
+      "drug_b": "theophylline",
+      "severity": 4,
+      "mechanism": "CYP1A2 inhibition increases theophylline plasma levels",
+      "clinical_effect": "Theophylline toxicity: nausea, arrhythmia, seizures",
+      "evidence_level": "established"
+    },
+    {
+      "drug_a": "levofloxacin",
+      "drug_b": "antacid",
+      "severity": 3,
+      "mechanism": "Chelation reduces levofloxacin absorption",
+      "clinical_effect": "Reduced antibiotic efficacy",
+      "evidence_level": "established"
+    },
+    {
+      "drug_a": "levofloxacin",
+      "drug_b": "theophylline",
+      "severity": 4,
+      "mechanism": "Mild CYP1A2 inhibition raises theophylline levels",
+      "clinical_effect": "Theophylline toxicity",
+      "evidence_level": "probable"
+    },
+    {
+      "drug_a": "phenelzine",
+      "drug_b": "dextromethorphan",
+      "severity": 5,
+      "mechanism": "MAOI inhibits dextromethorphan metabolism",
+      "clinical_effect": "Life-threatening serotonin syndrome",
+      "evidence_level": "established"
+    },
+    {
+      "drug_a": "phenelzine",
+      "drug_b": "pseudoephedrine",
+      "severity": 4,
+      "mechanism": "MAO inhibition prevents sympathomimetic metabolism",
+      "clinical_effect": "Hypertensive crisis",
+      "evidence_level": "established"
+    },
+    {
+      "drug_a": "phenelzine",
+      "drug_b": "meperidine",
+      "severity": 5,
+      "mechanism": "MAOI + opioid interaction via serotonergic and adrenergic pathways",
+      "clinical_effect": "Fatal reaction: hyperthermia, rigidity, respiratory depression",
+      "evidence_level": "established"
+    },
+    {
+      "drug_a": "cyclosporine",
+      "drug_b": "clarithromycin",
+      "severity": 4,
+      "mechanism": "CYP3A4 inhibition increases cyclosporine levels",
+      "clinical_effect": "Nephrotoxicity and cyclosporine toxicity",
+      "evidence_level": "established"
+    },
+    {
+      "drug_a": "tacrolimus",
+      "drug_b": "fluconazole",
+      "severity": 5,
+      "mechanism": "Potent CYP3A4 inhibition dramatically increases tacrolimus",
+      "clinical_effect": "Severe tacrolimus toxicity: nephrotoxicity, neurotoxicity",
+      "evidence_level": "established"
+    },
+    {
+      "drug_a": "methotrexate",
+      "drug_b": "trimethoprim",
+      "severity": 4,
+      "mechanism": "Additive folate antagonism",
+      "clinical_effect": "Severe bone marrow suppression",
+      "evidence_level": "established"
+    },
+    {
+      "drug_a": "azathioprine",
+      "drug_b": "allopurinol",
+      "severity": 5,
+      "mechanism": "Xanthine oxidase inhibition prevents azathioprine metabolism",
+      "clinical_effect": "Life-threatening bone marrow suppression",
+      "evidence_level": "established"
+    },
+    {
+      "drug_a": "clopidogrel",
+      "drug_b": "omeprazole",
+      "severity": 3,
+      "mechanism": "CYP2C19 inhibition reduces clopidogrel activation",
+      "clinical_effect": "Reduced antiplatelet effect, increased cardiovascular event risk",
+      "evidence_level": "established"
+    },
+    {
+      "drug_a": "lithium",
+      "drug_b": "furosemide",
+      "severity": 4,
+      "mechanism": "Furosemide reduces sodium, kidneys reabsorb more lithium",
+      "clinical_effect": "Lithium toxicity: tremor, confusion, cardiac arrhythmia",
+      "evidence_level": "established"
+    },
+    {
+      "drug_a": "theophylline",
+      "drug_b": "erythromycin",
+      "severity": 4,
+      "mechanism": "CYP3A4 and CYP1A2 inhibition increase theophylline levels",
+      "clinical_effect": "Theophylline toxicity: nausea, arrhythmia, seizures",
+      "evidence_level": "established"
+    },
+    {
+      "drug_a": "carbamazepine",
+      "drug_b": "fluoxetine",
+      "severity": 3,
+      "mechanism": "CYP3A4 inhibition by fluoxetine increases carbamazepine levels",
+      "clinical_effect": "Carbamazepine toxicity: diplopia, ataxia, nausea",
+      "evidence_level": "probable"
+    }
+  ],
+  "conditions": [
+    {
+      "name": "atrial fibrillation",
+      "icd_code": "I48",
+      "contraindicated_drugs": [
+        "NSAIDs",
+        "ibuprofen",
+        "naproxen",
+        "aspirin"
+      ]
+    },
+    {
+      "name": "heart failure",
+      "icd_code": "I50",
+      "contraindicated_drugs": [
+        "NSAIDs",
+        "ibuprofen",
+        "naproxen",
+        "verapamil"
+      ]
+    },
+    {
+      "name": "chronic kidney disease",
+      "icd_code": "N18",
+      "contraindicated_drugs": [
+        "NSAIDs",
+        "ibuprofen",
+        "metformin",
+        "contrast_dye",
+        "naproxen"
+      ]
+    },
+    {
+      "name": "peptic ulcer",
+      "icd_code": "K27",
+      "contraindicated_drugs": [
+        "aspirin",
+        "ibuprofen",
+        "naproxen",
+        "warfarin"
+      ]
+    },
+    {
+      "name": "epilepsy",
+      "icd_code": "G40",
+      "contraindicated_drugs": [
+        "tramadol",
+        "ciprofloxacin",
+        "meperidine"
+      ]
+    },
+    {
+      "name": "liver disease",
+      "icd_code": "K76",
+      "contraindicated_drugs": [
+        "methotrexate",
+        "rifampicin",
+        "alcohol",
+        "warfarin"
+      ]
+    },
+    {
+      "name": "myasthenia gravis",
+      "icd_code": "G70",
+      "contraindicated_drugs": [
+        "ciprofloxacin",
+        "levofloxacin",
+        "erythromycin"
+      ]
+    },
+    {
+      "name": "diabetes",
+      "icd_code": "E11",
+      "contraindicated_drugs": [
+        "propranolol",
+        "alcohol",
+        "contrast_dye"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+name: Train PharmaGuide models
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  train:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+
+      - name: Run API tests
+        run: PYTHONPATH=. python -m pytest -q
+        continue-on-error: true
+
+      - name: Train interaction model offline
+        run: python train.py --quick
+
+      - name: Train herb classifier
+        run: python train_herb_classifier.py
+        continue-on-error: true
+
+      - name: Verify generated artifacts
+        run: |
+          test -s models/interaction_model.joblib
+          test -s models/severity_labels.json
+
+      - name: Upload trained models
+        uses: actions/upload-artifact@v4
+        with:
+          name: pharmaguide-models
+          path: models/
+          if-no-files-found: error
+          retention-days: 7

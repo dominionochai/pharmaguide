@@ -1,0 +1,26 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+
+# Downloaded enriched data and local caches
+data/*.zip
+data/rdkditer.csv
+data/smiles_cache.json
+
+# Generated model artifacts (keep models/.gitkeep tracked)
+models/*.joblib
+models/*.pkl
+models/*.pth
+models/*.pt
+models/*.onnx
+
+# Frontend and build output
+node_modules/
+dist/
+
+# Local configuration and OS files
+.env
+.DS_Store
