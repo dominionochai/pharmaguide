@@ -1,1 +1,88 @@
-IyBQaGFybWFHdWlkZQoKKipQaGFybWFHdWlkZSBpcyBhbiBvZmZsaW5lLWZpcnN0IEFJIHBoYXJtYWNpc3QgY28tcGlsb3QgdGhhdCB0dXJucyBhIHBhdGllbnQncyBtZWRpY2F0aW9uIGFuZCBoZXJiIGxpc3QgaW50byB1bmRlcnN0YW5kYWJsZSBpbnRlcmFjdGlvbiByaXNrcyBhbmQgYSBwcmFjdGljYWwgInRlbGwgeW91ciBkb2N0b3IiIHNoZWV0LioqCgpJdCBpcyBhIGRlY2lzaW9uLXN1cHBvcnQgcHJvdG90eXBlIGZvciBwYXRpZW50cywgY2xpbmljaWFucywgYW5kIGNvbW11bml0eSBoZWFsdGggdGVhbXPigJRub3QgYSByZXBsYWNlbWVudCBmb3IgYSBxdWFsaWZpZWQgcGhhcm1hY2lzdCBvciBkb2N0b3IuCgojIyBXaGF0IGl0IGRvZXMKCi0gKipEcnVnIGludGVyYWN0aW9uIGFuYWx5c2lzOioqIGV4dHJhY3RzIG1lZGljYXRpb24gbmFtZXMgZnJvbSBmcmVlIHRleHQsIGNvbXBhcmVzIHBhaXJzIHdpdGggYSB0cmFpbmVkIGludGVyYWN0aW9uLXNldmVyaXR5IG1vZGVsLCBhbmQgcmV0dXJucyBzZXZlcml0eSwgY29uZmlkZW5jZSwgYW5kIHBsYWluLWxhbmd1YWdlIGZvbGxvdy11cCBub3Rlcy4KLSAqKkhlcmIgZGV0ZWN0aW9uOioqIGlkZW50aWZpZXMgbmFtZWQgaGVyYnMgYW5kIGNoZWNrcyB0aGVtIGFnYWluc3QgdGhlIGN1cmF0ZWQgaGVyYmFsIGNyb3NzLXJlZmVyZW5jZSBkYXRhYmFzZS4gT3B0aW9uYWwgaW1hZ2UtYmFzZWQgaWRlbnRpZmljYXRpb24gaXMgYmVzdC1lZmZvcnQgYW5kIGNhbiBmYWxsIGJhY2sgdG8gYSBtYW51YWwgbmFtZS4KLSAqKlNlbGYtbGVhcm5pbmcgbG9vcDoqKiB1bmtub3duIGRydWcgdGVybXMgYXJlIHN1cmZhY2VkIGJ5IGV4dHJhY3Rpb24gYW5kIGNhbiBiZSBhZGRlZCB0byB0aGUgbG9jYWwga25vd2xlZGdlL2NhY2hlIHdvcmtmbG93IGluc3RlYWQgb2Ygc2lsZW50bHkgZGlzYXBwZWFyaW5nLgotICoqT2ZmbGluZSBjYXBhYmlsaXR5OioqIHRoZSBjb3JlIHRleHQgZXh0cmFjdGlvbiwgY3VyYXRlZCBoZXJiIGNoZWNrcywgZmluZ2VycHJpbnQgZmVhdHVyZXMsIGFuZCB0cmFpbmVkIG1vZGVsIHJ1biBsb2NhbGx5OyBuZXR3b3JrLWJhY2tlZCBjaGVtaXN0cnkgZW5yaWNobWVudCBpcyBvcHRpb25hbCB3aXRoIGRldGVybWluaXN0aWMgZmFsbGJhY2tzLgotICoqVHJhaW5lZCBNTCBtb2RlbDoqKiBgdHJhaW4ucHlgIHRyYWlucyB0aGUgaW50ZXJhY3Rpb24gY2xhc3NpZmllciBmcm9tIHRoZSBjaGVja2VkLWluIGV4YW1wbGVzIGFuZCB3cml0ZXMgbG9jYWwgYXJ0aWZhY3RzIHVuZGVyIGBtb2RlbHMvYC4KLSAqKlByaXZhY3ktYXdhcmUgb3V0cHV0OioqIHRoZSBBUEkgaXMgZGVzaWduZWQgZm9yIGxvY2FsIHVzZSBhbmQgcmV0dXJucyBhIGNvbXBhY3QgcmlzayBzdW1tYXJ5IHBsdXMgYSBjbGluaWNpYW4tcmVhZHkgY29udmVyc2F0aW9uIHN0YXJ0ZXIuCgojIyBBcmNoaXRlY3R1cmUKClBoYXJtYUd1aWRlIHVzZXMgYSAqKkZhc3RBUEkgKyBSZWFjdC9WaXRlKiogYXJjaGl0ZWN0dXJlLiBUaGUgUHl0aG9uIGJhY2tlbmQgaW4gYGFwaS9gIGV4cG9zZXMgYW5hbHlzaXMgYW5kIGhlcmItZGV0ZWN0aW9uIGVuZHBvaW50cywgbG9hZHMgbG9jYWwgbW9kZWwvZGF0YSBhcnRpZmFjdHMsIGFuZCBlbmFibGVzIHBlcm1pc3NpdmUgQ09SUyBmb3IgdGhlIGRldmVsb3BtZW50IFVJLiBUaGUgVml0ZSBmcm9udGVuZCBpcyBhIHRoaW4gY2xpZW50IHRoYXQgc2VuZHMgdGV4dCBvciBpbWFnZSBpbnB1dCB0byB0aGUgYmFja2VuZCBhbmQgcmVuZGVycyByaXNrcywgY29uZmlkZW5jZSwgc2V2ZXJpdHksIGFuZCBuZXh0IHN0ZXBzLgoKIyMgUXVpY2tzdGFydDogYmFja2VuZAoKUHl0aG9uIDMuMTArIGlzIHJlY29tbWVuZGVkLgoKYGBgYmFzaApweXRob24gLW0gdmVudiAudmVudgojIG1hY09TL0xpbnV4CnNvdXJjZSAudmVudi9iaW4vYWN0aXZhdGUKIyBXaW5kb3dzIFBvd2VyU2hlbGw6IC52ZW52XFxTY3JpcHRzXFxBY3RpdmF0ZS5wczEKCnBpcCBpbnN0YWxsIC1yIHJlcXVpcmVtZW50cy50eHQKY3AgLmVudi5leGFtcGxlIC5lbnYgICMgb3B0aW9uYWw7IGtlZXAgcmVhbCBzZWNyZXRzIG91dCBvZiBHaXQKcHl0aG9uIHRyYWluLnB5ICAgICAgICAgIyBv cjogcHl0aG9uIHRyYWluLnB5IC0tcXVpY2sKdXZpY29ybiBhcGkubWFpbjphcHAgLS1yZWxvYWQgLS1wb3J0IDgwMDAKYGBgCgpUaGUgQVBJIGlzIHRoZW4gYXZhaWxhYmxlIGF0IDxodHRwOi8vMTI3LjAuMC4xOjgwMDA+LiBJbnRlcmFjdGl2ZSBkb2N1bWVudGF0aW9uIGlzIGF0IGAvZG9jc2AuIENPUlMgaXMgaW50ZW50aW9uYWxseSBwZXJtaXNzaXZlIChgKmApIGZvciBsb2NhbCBkZXZlbG9wbWVudDsgcmVzdHJpY3QgYGFsbG93X29yaWdpbnNgIGJlZm9yZSBwcm9kdWN0aW9uIGRlcGxveW1lbnQuCgojIyBPcHRpb25hbCBlbnZpcm9ubWVudCBrZXlzCgpUaGUgb2ZmbGluZSBwYXRoIGRvZXMgbm90IHJlcXVpcmUgc2VjcmV0cy4gQ29weSBgLmVudi5leGFtcGxlYCB0byBgLmVudmAgb25seSB3aGVuIHVzaW5nIG9wdGlvbmFsIGVucmljaG1lbnQ6CgpgYGBkb3RlbnYKRkVBVEhFUkxFU1NfQVBJX0tFWT0KSEVSQl9WSVNJT05fQVBJX0tFWT0KYGBgCgpgRkVBVEhFUkxFU1NfQVBJX0tFWWAgY2FuIGJlIHVzZWQgYnkgYW4gb3B0aW9uYWwgQUkgaWRlbnRpZmljYXRpb24vZW5yaWNobWVudCBpbnRlZ3JhdGlvbi4gYEhFUkJfVklTSU9OX0FQSV9LRVlgIGNhbiBiZSB1c2VkIGJ5IGFuIG9wdGlvbmFsIGhlcmItdmlzaW9uIHByb3ZpZGVyLiBUaGUgbG9jYWwgbW9kZWwgYW5kIGN1cmF0ZWQgbmFtZS1iYXNlZCBoZXJiIGxvb2t1cCByZW1haW4gdXNhYmxlIHdpdGhvdXQgZWl0aGVyIGtleS4KCiMjIEZyb250ZW5kCgpGcm9tIHRoZSBSZWFjdC9WaXRlIHdvcmtzcGFjZToKCmBgYGJhc2gKY2QgZnJvbnRlbmQKbnBtIGluc3RhbGwKbnBtIHJ1biBkZXYKYGBgCgpUaGUgVml0ZSBkZXZlbG9wbWVudCBzZXJ2ZXIgcnVucyBvbiA8aHR0cDovL2xvY2FsaG9zdDo1MTczPi4gU3RhcnQgdGhlIGJhY2tlbmQgb24gcG9ydCBgODAwMGAgZmlyc3Qgc28gdGhlIFVJIGNhbiBjYWxsIHRoZSBBUEkuCgojIyBBUEkgZXhhbXBsZQoKYFBPU1QgL2FuYWx5emVgIGFjY2VwdHMgcmF3IHRleHQgYW5kIGV4dHJhY3RzIG1lZGljaW5lcyBhbmQgaGVyYnMgaW4gb25lIHJlcXVlc3Q6CgpgYGBiYXNoCmN1cmwgLVggUE9TVCBodHRwOi8vMTI3LjAuMC4xOjgwMDAvYW5hbHl6ZSBcXAogIC1IICdDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL2pzb24nIFxcCiAgLWQgJ3sicmF3X3RleHQiOiJJIHRha2Ugd2FyZmFyaW4gYW5kIGFzcGlyaW4gd2l0aCBnaW5nZXIgdGVhLiJ9JwpgYGAKCkEgcmVwcmVzZW50YXRpdmUgcmVzcG9uc2UgaXM6CgpgYGBqc29uCnsKICAibWF0Y2hlZF9kcnVncyI6IFsid2FyZmFyaW4iLCAiYXNwaXJpbiJdLAogICJtYXRjaGVkX2hlcmJzIjogWyJnaW5nZXIiXSwKICAiZXh0cmFjdGlvbl9tZXRob2QiOiAibG9jYWwiLAogICJpbnRlcmFjdGlvbnMiOiBbCiAgICB7CiAgICAgICJkcnVnX2EiOiAid2FyZmFyaW4iLAogICAgICAiZHJ1Z19iIjogImFzcGlyaW4iLAogICAgICAic2V2ZXJpdHkiOiAibWFqb3IiLAogICAgICAiY29uZmlkZW5jZSI6IDAuNzcsCiAgICAgICJ0ZWxsX3lvdXJfZG9jdG9yIjogIlRlbGwgeW91ciBkb2N0b3IgYWJvdXQgdGhpcyBjb21iaW5hdGlvbiBiZWZvcmUgY2hhbmdpbmcgYW55dGhpbmcuIgogICAgfQogIF0sCiAgImhlcmJfZmxhZ3MiOiBbXSwKICAic3VtbWFyeSI6ICIxIGRydWcgaW50ZXJhY3Rpb24ocyksIDAgaGVyYiBmbGFnKHMpIGZvdW5kIiwKICAidW5yZWNvZ25pemVkIjogW10sCiAgImxlYXJuZWQiOiBmYWxzZSwKICAibmV3X2xlYXJuZWQiOiBbXQp9CmBgYAoKRXhhY3QgY29uZmlkZW5jZSBhbmQgd29yZGluZyBkZXBlbmQgb24gdGhlIHRyYWluZWQgYXJ0aWZhY3QgYW5kIHRoZSBpbnB1dC4gVHJlYXQgZXZlcnkgcmVzdWx0IGFzIGEgcHJvbXB0IHRvIGNvbnN1bHQgYSBxdWFsaWZpZWQgcHJvZmVzc2lvbmFsLgoKIyMgVHJhaW5pbmcgYW5kIHByb2plY3Qgc3RydWN0dXJlCgpSdW4gYHB5dGhvbiB0cmFpbi5weWAgdG8gcmVwcm9kdWNlIHRoZSBsb2NhbCBpbnRlcmFjdGlvbiBtb2RlbCBhbmQgbGFiZWwgYXJ0aWZhY3RzLiBUaGUgcXVpY2sgbW9kZSAoYHB5dGhvbiB0cmFpbi5weSAtLXF1aWNrYCkgaXMgdXNlZnVsIGZvciBhIGZhc3Qgc21va2UgY2hlY2suIFRoZSB3b3JrZmxvdyBpcyBkZXRlcm1pbmlzdGljIGZvciB0aGUgY2hlY2tlZC1pbiBleGFtcGxlcyBhbmQgZG9lcyBub3QgcmVxdWlyZSBkb3dubG9hZGluZyBhIHByb3ByaWV0YXJ5IGRhdGFzZXQuCgpgYGB0ZXh0CmFwaS8gICAgICAgICAgICAgIEZhc3RBUEkgYXBwbGljYXRpb24gKGBhcGkubWFpbjphcHBgKQpkYXRhLyAgICAgICAgICAgICBjaGVtaXN0cnkgaGVscGVycywgY2FjaGVzLCBhbmQgZ3JhcGggaW5wdXRzCm1vZGVscy8gICAgICAgICAgICBsb2NhbGx5IGdlbmVyYXRlZCBtb2RlbCBhcnRpZmFjdHMgKGlnbm9yZWQgYnkgR2l0KQpwaGFybWFndWlkZS8gICAgICBoZXJiIGtub3dsZWRnZSBiYXNlIGFuZCBpbnRlcmFjdGlvbiBoZWxwZXJzCnNyYy8gICAgICAgICAgICAgIGZyb250ZW5kL3NvdXJjZSBtb2R1bGVzCnRlc3RzLyAgICAgICAgICAgICBweXRlc3QgY292ZXJhZ2UKdHJhaW4ucHkgICAgICAgICAg aW50ZXJhY3Rpb24tbW9kZWwgdHJhaW5pbmcgZW50cnkgcG9pbnQKdHJhaW5faGVyYl9jbGFzc2lmaWVyLnB5ICBvcHRpb25hbCBoZXJiLWltYWdlIHRyYWluaW5nIHBhdGgKcmVxdWlyZW1lbnRzLnR4dCAgUHl0aG9uIGRlcGVuZGVuY2llcwouZW52LmV4YW1wbGUgICAgICBICBvcHRpb25hbCBsb2NhbCBjb25maWd1cmF0aW9uIGZpbGUgYGBgYAoKIyMgVGVzdGluZyBhbmQgc2FmZXR5CgpgYGBiYXNoCnB5dGVzdCAtcQpgYGAKClRoaXMgcHJvdG90eXBlIGNhbiBtaXNzIGJyYW5kIG5hbWVzLCByZWdpb25hbCBwcm9kdWN0cywgZG9zYWdlIGNvbnRleHQsIG9yIGludGVyYWN0aW9ucyBvdXRzaWRlIGl0cyBleGFtcGxlcy4gRG8gbm90IHN0b3Agb3IgY2hhbmdlIGEgbWVkaWNpbmUgYmFzZWQgb25seSBvbiB0aGlzIG91dHB1dDsgdmVyaWZ5IGV2ZXJ5IGFsZXJ0IHdpdGggYSBxdWFsaWZpZWQgY2xpbmljaWFuLgo=
+# PharmaGuide
+
+**PharmaGuide is an offline-first AI pharmacist co-pilot that turns a patient's medication and herb list into understandable interaction risks and a practical "tell your doctor" sheet.**
+
+It is a decision-support prototype for patients, clinicians, and community health teams—not a replacement for a qualified pharmacist or doctor.
+
+## What it does
+
+- **Drug interaction analysis:** extracts medication names from free text, compares pairs with a trained interaction-severity model, and returns severity, confidence, and plain-language follow-up notes.
+- **Herb detection:** identifies named herbs and checks them against the curated herbal cross-reference database. Optional image-based identification is best-effort and can fall back to a manual name.
+- **Self-learning loop:** unknown drug terms are surfaced by extraction and can be added to the local knowledge/cache workflow instead of silently disappearing.
+- **Offline capability:** the core text extraction, curated herb checks, fingerprint features, and trained model run locally; network-backed chemistry enrichment is optional with deterministic fallbacks.
+- **Trained ML model:** `train.py` trains the interaction classifier from the checked-in examples and writes local artifacts under `models/`.
+- **Privacy-aware output:** the API is designed for local use and returns a compact risk summary plus a clinician-ready conversation starter.
+
+## Architecture
+
+PharmaGuide uses a **FastAPI + React/Vite** architecture. The Python backend in `api/` exposes analysis and herb-detection endpoints, loads local model/data artifacts, and enables permissive CORS for the development UI. The Vite frontend is a thin client that sends text or image input to the backend and renders risks, confidence, severity, and next steps.
+
+## Quickstart: backend
+
+Python 3.10+ is recommended.
+
+```bash
+python -m venv .venv
+# macOS/Linux
+source .venv/bin/activate
+# Windows PowerShell: .venv\\Scripts\\Activate.ps1
+
+pip install -r requirements.txt
+cp .env.example .env  # optional; keep real secrets out of Git
+python train.py         # or: python train.py --quick
+uvicorn api.main:app --reload --port 8000
+```
+
+The API is then available at <http://127.0.0.1:8000>. Interactive documentation is at `/docs`. CORS is intentionally permissive (`*`) for local development; restrict `allow_origins` before production deployment.
+
+## Optional environment keys
+
+The offline path does not require secrets. Copy `.env.example` to `.env` only when using optional enrichment:
+
+```dotenv
+FEATHERLESS_API_KEY=
+HERB_VISION_API_KEY=
+```
+
+`FEATHERLESS_API_KEY` can be used by an optional AI identification/enrichment integration. `HERB_VISION_API_KEY` can be used by an optional herb-vision provider. The local model and curated name-based herb lookup remain usable without either key.
+
+## Frontend
+
+From the React/Vite workspace:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+The Vite development server runs on <http://localhost:5173>. Start the backend on port `8000` first so the UI can call the API.
+
+## API example
+
+`POST /analyze` accepts raw text and extracts medicines and herbs in one request:
+
+```bash
+curl -X POST http://127.0.0.1:8000/analyze \\
+  -H 'Content-Type: application/json' \\
+  -d '{"raw_text":"I take warfarin and aspirin with ginger tea."}'
+```
+
+A representative response is:
+
+```json
+{
+  "matched_drugs": ["warfarin", "aspirin"],
+  "matched_herbs": ["ginger"],
+  "extraction_method": "local",
+  "interactions": [
+    {
+      "drug_a": "warfarin",
+      "drug_b": "aspirin",
+      "severity": "major",
+      "confidence": 0.77,
+      "tell_your_doctor": "Tell your doctor about this combination before changing anything."
+    }
+  ],
+  "herb_flags": [],
+  "summary": "1 drug interaction(s), 0 herb flag(s) found",\n  "unrecognized": [],\n  "learned": false,\n  "new_learned": []\n}\n```\n\nExact confidence and wording depend on the trained artifact and the input. Treat every result as a prompt to consult a qualified professional.\n\n## Training and project structure\n\nRun `python train.py` to reproduce the local interaction model and label artifacts. The quick mode (`python train.py --quick`) is useful for a fast smoke check. The workflow is deterministic for the checked-in examples and does not require downloading a proprietary dataset.\n\n```text\napi/              FastAPI application (`api.main:app`)\ndata/             chemistry helpers, caches, and graph inputs\nmodels/            locally generated model artifacts (ignored by Git)\npharmaguide/      herb knowledge base and interaction helpers\nsrc/              frontend/source modules\ntests/             pytest coverage\ntrain.py          interaction-model training entry point\ntrain_herb_classifier.py  optional herb-image training path\nrequirements.txt  Python dependencies\n.env.example      optional local configuration file\n```\n\n## Testing and safety\n\n```bash\npytest -q\n```\n\nThis prototype can miss brand names, regional products, dosage context, or interactions outside its examples. Do not stop or change a medicine based only on this output; verify every alert with a qualified clinician.\n```
